@@ -82,6 +82,35 @@
     }
 }
 
+@keyframes logo {
+    0% {
+        opacity: 0;
+    }
+    25% {
+        opacity: 0.5;
+    }
+    50% {
+        opacity: 1;
+    }
+    75% {
+        opacity: 0.5;
+    }
+    100% {
+        opacity: 0;
+    }
+}
+
+.logos {
+    display: none;
+}
+
+/* member hover */
+
+.member-item-contains:hover{
+    cursor: pointer;
+    opacity: 0.7;
+}
+
 .social-links-profile:hover .social-links__facebook,
 .social-links-profile:hover .social-links__insta,
 .social-links-profile:hover .social-links__tiktok,

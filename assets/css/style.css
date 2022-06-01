@@ -53,14 +53,50 @@ html {
 /* Heading */
 
 .heading {
-    /* background-color: antiquewhite; */
     position: absolute;
     width: 100%;
     height: 268px;
     display: flex;
     justify-content: center;
 }
+/* member */
+.member-contains {
+    height: 40px;
+    width: 200px;
+    position: absolute;
+    left: 30px;
+    top: 20%;
+    /* overflow: hidden; */
+}
 
+.mem-active {
+    border-radius: 10px;
+    border: black solid 1px;
+    color: rgb(251, 76, 7);
+
+}
+
+.member-list {
+    list-style: none;
+    background-color: var(--pri-background-color);
+    border-radius: 10px;
+}
+
+.member-item-contains {
+    display: flex;
+    padding: 0 10px 10px;
+}
+
+.member-name {
+    line-height: 35px;
+    padding-left: 8px;
+}
+
+.member-logo-img {
+    height: 35px;
+}
+
+/* social */
 .heading .social {
     position: absolute;
     display: flex;
@@ -296,7 +332,7 @@ html {
 
 .nav {
     display: flex;
-    max-height: 544px;
+    max-height: 491px;
 }
 
 .nav-list {
@@ -661,6 +697,7 @@ p {
     z-index: 999;
     height: 1500px;
     /* animation: html-load 1s; */
+    /* display: none; */
 }
 
 .loading-text {
