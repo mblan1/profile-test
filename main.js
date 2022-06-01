@@ -58,7 +58,7 @@ const memberInfo = [
     },
     {
         name: "Ngô Đức Mạnh",
-        avtUrl: "./assets/img/member-img/ngomanh.png",
+        avtUrl: "/assets/img/member-img/ngomanh.png",
         linkFace: "https://www.facebook.com/ngoduc.manh.5872",
         linkInsta: "https://www.instagram.com/ngoduc.manh.5872/?fbclid=IwAR1gWbFCFZE7eGWbxGVl8E4s80V-Cn-LkErsqmj9Gg9AAzBox_Zji51mDr8",
         linkTopTop: "https://www.tiktok.com/@manhchipboy202?is_from_webapp=1&sender_device=pc&fbclid=IwAR0sVp2U8o4NsQtWupORa1akNTEiGKFVC5KZK2I8PUSA29oby186LqSTR2c",
@@ -70,7 +70,7 @@ const memberInfo = [
     },
     {
         name: "Trần Tiến Mạnh",
-        avtUrl: "./assets/img/member-img/tienmanh.png",
+        avtUrl: "/assets/img/member-img/tienmanh.png",
         linkFace: "https://www.facebook.com/profile.php?id=100009420821091",
         linkInsta: "https://www.instagram.com/Manhtran534/?fbclid=IwAR2JKITHYd5S5C-kmYPJlgrGv3vKkW5AuzUU591hYWbmeNr7XNjBZ2uc7Ik",
         linkTopTop: "https://www.tiktok.com/@battle_worthy?lang=vi-VN&fbclid=IwAR3iU_JtwWypd-4QnzBG5JAvXse1ngcV1UFoUWZOWV-uDzWm4UqDdiTeQG8",
@@ -84,7 +84,7 @@ const memberInfo = [
     },
     {
         name: "Lê Ngọc Lân",
-        avtUrl: "./assets/img/profile_img/lanle.jpg",
+        avtUrl: "/assets/img/profile_img/lanle.jpg",
         linkFace: "https://www.facebook.com/lanle.050802",
         linkInsta: "https://www.instagram.com/lanle.050802/",
         linkTopTop: "https://www.tiktok.com/@snowlnl",
@@ -121,7 +121,7 @@ movie2.style.display = "block";
 movie1Name.innerHTML = "The Greatest ShowMan";
 movie1Desc.innerHTML = "Bộ phim nhạc kịch hay và cuốn nhất mình từng xem.";
 movie1Link.href = "https://www.youtube.com/watch?v=RkozLmiLBc0";
-movie1Img.src = "./assets/img/movie/showman.jpg";
+movie1Img.src = "/assets/img/movie/showman.jpg";
 }
 defaultInfo();
 
