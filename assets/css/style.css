@@ -80,6 +80,8 @@ html {
     list-style: none;
     background-color: var(--pri-background-color);
     border-radius: 10px;
+    position: fixed;
+    z-index: 500;
 }
 
 .member-item-contains {
@@ -695,14 +697,17 @@ p {
     position: fixed;
     width: 100%;
     z-index: 999;
-    height: 1500px;
-    /* animation: html-load 1s; */
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    /* height: 1500px; */
     /* display: none; */
 }
+.loading-logo{
+    padding-left: 54px;
+}
 
-.loading-text {
-    position: fixed;
-    top: 42%;
-    left: 42%;
-    font-size: 54px;
+.logos {
+    width: 30.33%;
 }

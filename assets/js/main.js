@@ -268,7 +268,7 @@ const app = {
             if (ok) {
                 hiddenOverlay()
             } else {
-                setTimeout(hiddenOverlay, 1000)
+                setTimeout(hiddenOverlay, 5000)
             }
         }
     },
